@@ -32,7 +32,7 @@
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
-    background: #000000 url("../images/bg1.jpg%3Fcrc=343475546") no-repeat center bottom;
+    background: #000000 url("../images/bg1.jpg") no-repeat center bottom;
     background-size: cover;
 }
 .js body.initialized {
@@ -130,7 +130,7 @@
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
-    background: #E246C7 url("../images/polygon-pattern.jpg%3Fcrc=4127217942") no-repeat left top;
+    background: #E246C7 url("../images/polygon-pattern.jpg") no-repeat left top;
     background-size: cover;
 }
 #u1692-bw {
@@ -1265,7 +1265,7 @@
     opacity: 0.84;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=84)";
     filter: alpha(opacity=84);
-    background: transparent url("../images/pattern.png%3Fcrc=106696146") repeat left top;
+    background: transparent url("../images/pattern.png") repeat left top;
 }
 #u2880-bw {
     z-index: 2;
@@ -1294,7 +1294,7 @@
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
-    background: transparent url("../images/pattern.png%3Fcrc=106696146") repeat left top;
+    background: transparent url("../images/pattern.png") repeat left top;
 }
 #u2495-bw {
     z-index: 20;
