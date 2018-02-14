@@ -1,0 +1,54 @@
+.contact-mobile{
+	display: none;
+}
+@media screen and (max-width: 990px){
+	.absolute-figura{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) {
+	.contact{
+		display: none;
+	}
+	.contact-mobile{
+		display: block;
+	}
+	.main-contact{
+		text-align: center;
+	}
+	.main-contact span{
+	font-size: 40px;
+	font-weight: bold;
+}
+	.header .nummer-p{
+		display: none;
+	}
+	.header .header-wrap{
+		padding-top: 2%;
+	}
+	.header .header-wrap h3{
+		font-size: 36px;
+	}
+	.header .header-wrap-order{
+		padding-top: 25px;
+	}
+	.submit-app input{
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.header .coll-send{
+		font-size: 18px;
+		text-align: center;
+		font-weight: bold;
+	}
+	.header .header-wrap h3{
+		font-size: 32px;
+	}
+	.header .header-wrap-order{
+		padding-top: 15px;
+	}
+}
+@media screen and (max-width: 480px) {
+	
+}
