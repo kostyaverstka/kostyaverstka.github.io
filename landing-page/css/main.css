@@ -5,8 +5,9 @@
 *{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	box-sizing: border-box; 
 	font-family: BookAntiqua;
+	outline:none;
 }
 h1,h2,h3,h4,ul,li,body{
 	margin: 0;
@@ -157,6 +158,7 @@ header .btn:hover{
 	display: -o-flex;
 	display: flex;
 	justify-content: center;
+	position: relative;
 }
 .portfolio .slider-wrap{
 	max-width: 1200px;
@@ -302,7 +304,20 @@ footer{
 	padding: 20px 0 10px;
 	background-color: #101010;
 	text-align: center;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 2px;
+	color: #666;
+}
+footer span{
+	margin: 0 30px;
+}
+footer span > a{
+	color: #0099FF;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+footer span > a:hover{
+	opacity: .6;
 }

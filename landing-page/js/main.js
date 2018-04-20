@@ -13,8 +13,20 @@ $(document).ready(function(){
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	arrows: true,
+  dots: false,
 	prevArrow: '<i class="fa slider-arrows arrows-left fa-chevron-left"></i>',
-	nextArrow: '<i class="fa slider-arrows arrows-right fa-chevron-right"></i>'
+	nextArrow: '<i class="fa slider-arrows arrows-right fa-chevron-right"></i>',
+
+	 responsive: [
+    {
+      breakpoint: 980,
+      settings: {
+        arrows: false,
+        dots: true
+      }
+    }
+  ]
+
 	});
 	
 });

@@ -59,6 +59,9 @@
 		background-size: cover;
 		border: 2px solid #fff;
 	}
+	.portfolio{
+		display: block;
+	}
 	.portfolio .item-slider{
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
@@ -66,9 +69,16 @@
 		-o-flex-direction: column;
 		flex-direction: column;
 		justify-content: center;
+		padding: 5px 40px;
+		max-height: none;
 	}
-	.portfolio .slider-arrows{
+	.portfolio .img-block{
 		display: none;
+	}
+	.portfolio .slick-dots li button::before{
+		color: #fff;
+		font-size: 12px;
+		margin-top: 30px;
 	}
 	.portfolio .content{
 		text-align: center;
@@ -110,6 +120,15 @@
 		font-size: 24px;
 		padding: 0 10px;
 	}
+	.portfolio .item-slider{
+		padding: 5px 0px;
+	}
+	.portfolio .btn{
+		width: 240px;
+		height: 60px;
+		font-size: 28px;
+		line-height: 50px;
+	}
 	.contact_me textarea{
 		width: 100%;
 		height: 140px;
@@ -119,5 +138,11 @@
 	}
 	.contact_me .info-block a{
 		font-size: 20px;
+	}
+	footer span{
+		display: block;
+	}
+	footer span:first-child{
+		margin-bottom: 10px;
 	}
 }
