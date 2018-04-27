@@ -1,0 +1,41 @@
+@media screen and (max-width: 960px){
+	.section-2{
+		text-align: center;
+	}
+	.title-fotorama{
+		padding-top: 30px;
+	}
+}
+@media screen and (max-width: 440px){
+
+	header h1{
+		font-size: 34px;
+	}
+	header h3{
+		font-size: 30px;
+		letter-spacing: 0.05em;
+		color: #ECECEC;
+		margin-bottom: 50px;
+		font-weight: lighter;
+	}
+	.btn{
+		border: 2px solid #fff;
+		background-color: rgba(0,0,0,.5);
+		padding: 10px 20px;
+		border-radius: 30px;
+		font-size: 24px;
+		font-weight: bold;
+		letter-spacing: 0.05em;
+		transition: all .3s;
+	}
+	header span{
+		display: block;
+		margin-top: 40px;
+		color: #B7B7B7;
+		font-style: italic;
+		font-size: 24px;
+	}
+	.section-2 .item-contact{
+		font-size: 24px;
+	}
+}
