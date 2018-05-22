@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Grid -->
+	<link rel="stylesheet" href="css/grid/bootstrap-grid.min.css">
+	<!-- CDN Style -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<!-- Main Style -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Responsive Style -->
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+	
+	<header>
+		<div class="container">
+			<div class="head-menu top-menu">
+				<div class="logo">
+					<a href="#">
+						<img src="img/logo.png" alt="Логотип">
+						<span class="title-site">Интернет-магазин товаров в Москве</span>
+					</a>
+				</div>
+				<div class="navbar">
+					<ul class="nav">
+						<li><a href="#" class="nav-link">каталог</a></li>
+						<li><a href="#" class="nav-link">Преимущества</a></li>
+						<li><a href="#" class="nav-link modal-dostavka">Доставка и оплата</a></li>
+						<li><a href="#" class="nav-link">Отзывы</a></li>
+						<li><a href="#" class="nav-link">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="head-call">
+					<div class="phone">+7 (495) 555-55-55</div>
+					<a href="#" class="modal-call">Заказать обратный звонок</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="promo" style="background-image: url('img/promo-bg.jpg')">
+		<div class="backrgaund">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-lg-7">
+						<div class="promo-title"><b>СДЕЛАЙТЕ ЗАКАЗ СЕГОДНЯ</b> И ПОЛУЧИТЕ КУПОН НА СКИДКУ 20%</div>
+						<p class="promo-text">В нашем магазине вы сможете найти необычный и интересный подарок для ваших друзей и близких. Сделайте заказ сегодня и получите скидку 20% на любой товар из каталога. Просто заполните форму заказа и получите подарок.</p>
+					</div>
+					<div class="col-md-12 col-lg-5">
+						<div class="promo-form">
+							<div class="promo-form-title">ПОЛУЧИТЬ КУПОН НА СКИДКУ УЖЕ СЕГОДНЯ</div>
+							<form action="">
+								<input type="hidden" name="sessid" id="sessid" value="Форма 'ПОЛУЧИТЬ КУПОН НА СКИДКУ УЖЕ СЕГОДНЯ'">
+								<div class="promo-form-name">
+									<input type="text" class="form-control" placeholder="Ваше Имя" name="frm-name" value="">
+								</div>
+								<div class="promo-form-phone">
+									<input type="text" class="form-control" placeholder="Телефон" name="frm-phone" value="">
+								</div>
+								<div class="promo-form-email">
+									<input type="text" class="form-control" placeholder="Email" name="frm-email" value="">
+								</div>
+								<div class="promo-form-btn">
+									<input type="submit" class="btn" name="iblock_submit" value="Получить скидочный купон">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="catalog">
+		<div class="title-section">КАТАЛОГ ТОВАРОВ</div>
+		<div class="controler-product-sort">
+			<button type="button" class="control" data-filter="all">Все</button>
+            <button type="button" class="control" data-filter=".gadjet">Гаджеты</button>
+            <button type="button" class="control" data-filter=".tehnik">Техника</button>
+		</div>
+		<div class="container">
+			<div class="row product-grid">
+
+				<div class="col-lg-3 mix gadjet">
+					<div class="item-catalog">
+						<div class="img-product">
+							<a href="#">
+								<img src="img/product.jpg" alt="">
+							</a>
+						</div>
+						<div class="name-product">
+							<a href="#">Внешний аккумулятор Beats 8.000 mAh Powerbank Silver</a>
+						</div>
+						<div class="btn-product"><a href="#">Заказать</a></div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mix tehnik">
+					<div class="item-catalog">
+						<div class="img-product">
+							<a href="#">
+								<img src="img/product.jpg" alt="">
+							</a>
+						</div>
+						<div class="name-product">
+							<a href="#">Внешний аккумулятор Beats 8.000 mAh Powerbank Silver</a>
+						</div>
+						<div class="btn-product"><a href="#">Заказать</a></div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mix gadjet">
+					<div class="item-catalog">
+						<div class="img-product">
+							<a href="#">
+								<img src="img/product.jpg" alt="">
+							</a>
+						</div>
+						<div class="name-product">
+							<a href="#">Внешний аккумулятор Beats 8.000 mAh Powerbank Silver</a>
+						</div>
+						<div class="btn-product"><a href="#">Заказать</a></div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mix tehnik">
+					<div class="item-catalog">
+						<div class="img-product">
+							<a href="#">
+								<img src="img/product.jpg" alt="">
+							</a>
+						</div>
+						<div class="name-product">
+							<a href="#">Внешний аккумулятор Beats 8.000 mAh Powerbank Silver</a>
+						</div>
+						<div class="btn-product"><a href="#">Заказать</a></div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mix gadjet">
+					<div class="item-catalog">
+						<div class="img-product">
+							<a href="#">
+								<img src="img/product.jpg" alt="">
+							</a>
+						</div>
+						<div class="name-product">
+							<a href="#">Внешний аккумулятор Beats 8.000 mAh Powerbank Silver</a>
+						</div>
+						<div class="btn-product"><a href="#">Заказать</a></div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mix gadjet">
+					<div class="item-catalog">
+						<div class="img-product">
+							<a href="#">
+								<img src="img/product.jpg" alt="">
+							</a>
+						</div>
+						<div class="name-product">
+							<a href="#">Внешний аккумулятор Beats 8.000 mAh Powerbank Silver</a>
+						</div>
+						<div class="btn-product"><a href="#">Заказать</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="advantages">
+		<div class="title-section">ПРЕИМУЩЕСТВА</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<spam class="ico-block">
+						<i class="fa fa-star"></i>
+					</spam>
+					<div class="text-block"><span>100% КАЧЕСТВО<br>ОТ ЛУЧШИХ ПРОИЗВОДИТЕЛЕЙ</span></div>
+				</div>
+				<div class="col-lg-3">
+					<spam class="ico-block">
+						<i class="fa fa-shield-alt"></i>
+					</spam>
+					<div class="text-block"><span>ГАРАНТИЯ НА ВСЕ ТОВАРЫ<br>ОТ ПРОИЗВОДИТЕЛЯ</span></div>
+				</div>
+				<div class="col-lg-3">
+					<spam class="ico-block">
+						<i class="fa fa-plane"></i>
+					</spam>
+					<div class="text-block"><span>ОПЕРАТИВНАЯ ДОСТАВКА<br>ПО ВСЕЙ РОССИИ</span></div>
+				</div>
+				<div class="col-lg-3">
+					<spam class="ico-block">
+						<i class="fa fa-credit-card"></i>
+					</spam>
+					<div class="text-block"><span>ОПЛАТА ЛЮБЫМ УДОБНЫМ<br>СПОСОБОМ</span></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="factu">
+		<div class="title-section">ФАКТЫ</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<span class="title">10</span>
+					<p>Более 10 лет на рынке, начиная с 2000 года</p>
+				</div>
+				<div class="col-lg-4">
+					<span class="title">3</span>
+					<p>Магазины в 3-х крупнейших городах России</p>
+				</div>
+				<div class="col-lg-4">
+					<span class="title">500</span>
+					<p>Более 500 клиентов за 2016 год</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="shema-work">
+		<div class="title-section">СХЕМА РАБОТЫ</div>
+		<div class="container-item">
+			<div class="item">
+				<div class="item-circle">1</div>
+				<div class="item-content">Выбрете подходящий товар в каталоге</div>
+			</div>
+			<div class="item">
+				<div class="item-circle">2</div>
+				<div class="item-content">Заполните и отправьте форму заказа</div>
+			</div>
+			<div class="item">
+				<div class="item-circle">3</div>
+				<div class="item-content">Дождитесь подтверждения заказа менеджером</div>
+			</div>
+			<div class="item">
+				<div class="item-circle">4</div>
+				<div class="item-content">Оплатите заказ любым удобным для Вас способом</div>
+			</div>
+			<div class="item">
+				<div class="item-circle">5</div>
+				<div class="item-content">Получите Ваш заказ на почте либо курьером</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sertificat">
+		<div class="title-section">СХЕМА РАБОТЫ</div>
+		<div class="slide-wrap-sertificat">
+			<div class="slide-item">
+				<img src="img/sertificat.jpg" alt="Сертификат">
+			</div>
+			<div class="slide-item">
+				<img src="img/sertificat.jpg" alt="Сертификат">
+			</div>
+			<div class="slide-item">
+				<img src="img/sertificat.jpg" alt="Сертификат">
+			</div>
+			<div class="slide-item">
+				<img src="img/sertificat.jpg" alt="Сертификат">
+			</div>
+			<div class="slide-item">
+				<img src="img/sertificat.jpg" alt="Сертификат">
+			</div>
+		</div>
+	</section>
+
+	<section class="otzuvi">
+		<div class="title-section">ОТЗЫВЫ КЛИЕНТОВ</div>
+		<div class="slide-wrap-otzuvi">
+			<div class="slide-item">
+				<img src="img/wuman.jpg" alt="Отзыв">
+				<div class="name">Василиса</div>
+				<div class="text">Спасибо большое! Вы умницы! Посылка пришла, я в восторге! Очень красивая упаковка, подарок должен понравится. Особенно хочу отметить быструю доставку.</div>
+			</div>
+			<div class="slide-item">
+				<img src="img/wuman.jpg" alt="Отзыв">
+				<div class="name">Василиса</div>
+				<div class="text">Спасибо большое! Вы умницы! Посылка пришла, я в восторге! Очень красивая упаковка, подарок должен понравится. Особенно хочу отметить быструю доставку.</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="partnyr">
+		<div class="title-section">НАШИ ПАРТНЕРЫ</div>
+		<div class="container">
+			<div class="slide-wrap-partnyr">
+				<div class="slide-item">
+					<img src="img/partner.png" alt="Партнёр">
+				</div>
+				<div class="slide-item">
+					<img src="img/partner.png" alt="Партнёр">
+				</div>
+				<div class="slide-item">
+					<img src="img/partner.png" alt="Партнёр">
+				</div>
+				<div class="slide-item">
+					<img src="img/partner.png" alt="Партнёр">
+				</div>
+				<div class="slide-item">
+					<img src="img/partner.png" alt="Партнёр">
+				</div>
+				<div class="slide-item">
+					<img src="img/partner.png" alt="Партнёр">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="blog">
+		<div class="title-section">ИНТЕРЕСНЫЕ СТАТЬИ</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="item-blog">
+						<a href="#" class="link-post"><img src="img/post-image.jpg" alt="Миниатюра статьи" class="img-post"></a>
+						<a href="#" class="name-post">Моноподы для селфи</a>
+						<p class="text-post">На данный можно в продаже можно найти большое количество сигвеев. Их еще называют гироскутерами.</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="item-blog">
+						<a href="#" class="link-post"><img src="img/post-image.jpg" alt="Миниатюра статьи" class="img-post"></a>
+						<a href="#" class="name-post">Моноподы для селфи</a>
+						<p class="text-post">На данный можно в продаже можно найти большое количество сигвеев. Их еще называют гироскутерами.</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="item-blog">
+						<a href="#" class="link-post"><img src="img/post-image.jpg" alt="Миниатюра статьи" class="img-post"></a>
+						<a href="#" class="name-post">Моноподы для селфи</a>
+						<p class="text-post">На данный можно в продаже можно найти большое количество сигвеев. Их еще называют гироскутерами.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="call-vopros">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-4">
+					<div class="title">ОСТАЛИСЬ ВОПРОСЫ?</div>
+				</div>
+				<div class="col-lg-4"></div>
+				<div class="col-lg-4">
+					<a href="#" class="btn-call">Напишите нам</a>
+					<span>или позвоните +7 (495) 555-55-55</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="opisanie">
+		<div class="title-section">ИНТЕРЕСНЫЕ СТАТЬИ</div>
+		<div class="container">
+			<img src="img/opisanie.jpg" alt="">
+			<p>На данный можно в продаже можно найти большое количество сигвеев. Их еще называют гироскутерами. Они могут иметь обвес корпуса и не иметь, колеса могут быть большие и маленькие, внешний вид может быть ультрасовременным и попроще и т. д. Поэтому у многих покупателей начинают разбегаться глаза, когда они посещают магазин с электротранспортом. Но выбирать электрическое транспортное средство следует очень внимательно, чтобы потом не пожалеть, ведь стоит такое удовольствие не дешево.</p>
+			<p>Сигвеи (segway) производятся в двух странах: США и Китай. Американский гироскутер будет стоить в несколько раз дороже, чем его аналог, сделанный в Китае. Если вам необходимо престижное транспортное средство и вы заботитесь о имидже, то тогда следует купить сигвей, который произведен в США. Но за такие деньги можно приобрести несколько китайских аппаратов и еще средства останутся.</p>
+			<p>Если вы не хотите переплачивать за марку, то следует знать, что китайские гироскутеры бывают разные. В продаже можно найти модели с существенными недоработками. А бывают наоборот, отличные сигвеи. Рассмотрим основные данные.</p>
+			<p>Для начала необходимо найти хороший магазин, где можно было б приобрести данную технику. Далее необходимо исходить из ваших пожеланий по аренде и прокату. Если вы планируете сдавать в прокат сигвей на площади или в парке, где много детей, то в этом случае лучше приобрести цветные модели. Ведь чем, ярче транспортно средство, тем лучше. Взрослые и молодежь предпочитает гироскутеры с большим колесами. Кроме этого такие сигвеи подойдут для поездок по неровной местности, траве, гравии и т. д. Здесь следует помнить, что гироскутеры могут иметь большие колеса, а также средние с усиленным проектором и шириной шин. Это помогает улучшить сцепление с поверхностью.</p>
+			<p>Для тех, кто планирует не только заниматься прокатом, но и сдавать в аренду сигвеи, то рекомендуется купить несколько видов данной техники, так как для разных случаев необходимы разные гироскутеры.</p>
+			<p>После того, как вы определились с размерами и их количеством, необходимо подумать о качестве и практичности данной техники. Внешний вид должен быть аккуратный, без лишних деталей. В одной ценовой категории можно найти почти одинаковые гигвеи, но они могут отличатся несколькими деталями. Например, гироскутер с дистационным управлением, с программой взаимодействия через телефон при помощи Андроида и т. д. Если вам необходимы эти навороты, то следует выбирать надежного производителя. Модели попроще являются более востребованными.</p>
+		</div>
+	</section>
+
+	<section class="contact">
+		<div class="title-section">КОНТАКТЫ</div>
+		<span class="adress">Наш адрес: Москва, ул. Тверская, д. 15</span>
+		<div class="container-fluid">
+			<div class="yandex-map">
+				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A650d59c737bff1b3881ff9e2243064794249dbd3ed7cbd5b7969a5f6a7412888&amp;source=constructor" width="100%" height="280" frameborder="0"></iframe>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<span class="phone">Остались вопросы?<br>+7 (495) 555-55-55</span>
+		<div class="social-wrap">
+			<a href="#" class="ico-social"><i class="fa fa-instagram"></i></a>
+			<a href="#" class="ico-social"><i class="fa fa-instagram"></i></a>
+			<a href="#" class="ico-social"><i class="fa fa-instagram"></i></a>
+			<a href="#" class="ico-social"><i class="fa fa-instagram"></i></a>
+		</div>
+		<spam class="copiraite">© Интернет-магазин товаров в Москве, 2016 год</spam>
+	</footer>
+
+	<!-- JS Script -->
+	<script src="js/default/jquery-3.3.1.min.js"></script>
+	<!-- Plugins Script -->
+	<script src="plugins/mixitup/mixitup.min.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<!-- Main Script -->
+	<script src="js/main.js"></script>
+</body>
+</html>
