@@ -1,0 +1,230 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 400;
+	color: #262626;
+	background-color: #f9f9f9;
+}
+a{
+	text-decoration: none;
+	color: #262626;
+}
+.topbar-wrapper{
+	background-color: #000;
+	color: #fff;
+	padding: 10px 0;
+	font-size: 13px;
+}
+.topbar-container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.topbar-wrapper a{
+	color: #fff;
+	text-decoration: none;
+}
+.topbar-wrapper ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.topbar-wrapper ul li:first-child{
+	margin-right: 40px;
+}
+header{
+	padding: 25px 0;
+	border-bottom: 1px solid #ebebeb;
+}
+.logo-wrapper{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+header .logo-item:first-child{
+	margin-right: 20px;
+}
+.logo-description strong{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .7px;
+}
+.contact-wrapper a{
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	opacity: .7;
+}
+.contact-wrapper a:hover{
+	opacity: 1;
+}
+ .fab {
+    font-size: 21px;
+    font-weight: normal;
+}
+.social-wrapper{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 5px;
+}
+.social-wrapper a{
+	margin-right: 10px;
+}
+.header-right{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.header-right .time{
+	font-weight: bold;
+}
+.header-right .btn-zayvka{
+	background-color: red;
+	height: 40px;
+	padding: 10px;
+	color: #fff;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.header-right .btn-zayvka:hover{
+	color: #000;
+	background-color: #fff;
+}
+nav{
+	margin: 10px 0;
+}
+.nav-wrapper{
+	padding: 15px 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.nav-wrapper a{
+	font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+}
+.nav-wrapper .dop-menu{
+	display: none;
+	z-index: 33;
+	background-color: red;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin-top: 20px;
+}
+.nav-wrapper .dop-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.nav-wrapper .dop-menu ul li{
+	margin-bottom: 20px;
+}
+.nav-link-dop{
+	position: relative;
+}
+nav .nav-link-dop:hover .dop-menu{
+	display: block;
+}
+.perevozki-wrapp{
+    text-align: center;
+    margin: 40px 0;
+}
+.btn-perevozki{
+	color: #ffffff;
+    border: none;
+    background-color: #ad012f;
+    background-image: -webkit-linear-gradient(left, #ad012f 0%, #d60000 50%,#ad012f 100%);
+    background-image: linear-gradient(to right, #ad012f 0%, #d60000 50%,#ad012f 100%);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-size: 200% 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 18px 100px;
+}
+.section-1 .title{
+	color: #d10006;
+	font-size: 20px;
+	font-weight: bold;
+}
+.section-1 ul{
+	padding: 0;
+	list-style: none;
+	font-weight: bold;
+}
+.section-1 ul li{
+	margin-bottom: 10px;
+}
+.text-black{
+	color: #000;
+	font-weight: 600;
+}
+.section-1 span{
+	color: #800000;
+}
+.section-1 .text-black div{
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-size: 14px;
+}
+.section-1 .btn{
+	display: block;
+	text-align: center;
+    background-color: #8d6dc4;
+    background-image: -webkit-linear-gradient(left, #8d6dc4 0%, #f4524d 50%,#8d6dc4 100%);
+    background-image: linear-gradient(to right, #8d6dc4 0%, #f4524d 50%,#8d6dc4 100%);
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.section-1 .icon-text{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.section-1 .icon-text i{
+	margin-right: 20px;
+	font-size: 32px;
+}
+.section-1 .icon-text span{
+	font-size: 22px;
+	color: #d60700;
+	font-weight: normal;
+}
+.section-1 img{
+	width: 100%;
+}
